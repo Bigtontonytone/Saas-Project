@@ -1,0 +1,26 @@
+.front-logo {
+  width: 154.9px;
+  height: 46.1px;
+  margin-right: auto;
+}
+
+.nav-bar .container{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  background-color: #2476FF;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 15px 25px;
+  display: inline-block;
+  margin-right: 44px;
+}
