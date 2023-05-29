@@ -59,16 +59,82 @@
   font-size: 14px;
   line-height: 17px;
 }
+.right-side {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
 
-.small-icon {
-  width: 40px;
-  height: 40px;
-  background: #FFFFFF;
-  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
+.small-icon{
+width: 40px;
+height: 40px;
 }
 
 .large-icon {
   width: 48px;
   height: 48px;
+}
+
+.small-icon-back {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    flex-direction: row;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.large-icon-back {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    flex-direction: row;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    padding: 16px;
+    position: relative;
+}
+
+.small-icon-back .google {
+  left: 64px;
+  top: 10px;
+}
+
+.large-icon-back .atlassian {
+  left: 175px;
+  top: 10px;
+}
+
+.large-icon-back .asana {
+  left: 380px;
+  top: 10px;
+}
+
+.large-icon-back .paypal {
+  left: 44px;
+  top: 172px;
+}
+
+.large-icon-back .weave {
+  left: 262px;
+  top: 172px;
+}
+
+.small-icon-back .google-a {
+  left: 155px;
+  top: 290px;
+}
+
+.large-icon-back .calendar {
+  left: 364px;
+  top: 310px;
 }
