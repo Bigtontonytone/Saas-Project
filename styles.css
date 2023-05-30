@@ -1,13 +1,20 @@
 .front-logo {
   width: 154.9px;
   height: 46.1px;
-  margin-right: auto;
+
 }
 
-.nav-bar .container{
+.container {
+  /* background: linear-gradient(110deg, #d9d9d970 72.61%, #d9d9d970 69%, #d9d9d900 66.85%, #d9d9d900 58%, #E1E7EF 71% ); */
+  background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44) 17.61%, rgba(217, 217, 217, 0) 55.85%);
+  padding-bottom:85px;
+}
+
+.nav-bar {
   display: flex;
   align-items: center;
   padding-top: 20px;
+  justify-content: space-between;
 }
 
 .nav-list {
@@ -16,19 +23,21 @@
   padding-right: 20px;
 }
 
-.features {
+.nav-link:hover {
   color: var(--blue);
+}
+
+.btn.buy-now {
+  margin-left: 10px;
 }
 
 .btn {
   border-radius: 30px;
   border: 1px solid transparent;
   padding: 15px 25px;
-  display: inline-block;
-  margin-right: 44px;
 }
 
-.top-section.container {
+.top-section {
   padding-top: 80px;
   display: grid;
   grid-template-columns:repeat( auto-fit, minmax(350px, 1fr) );
@@ -40,11 +49,15 @@
   line-height: 48px;
   width: 334px;
   height: 144px;
+  margin-bottom: 11px;
+  margin-top: 45px;
 }
 
 .bottom-left {
   display: flex;
   align-items: center;
+  margin-top: 30px;
+  gap: 24px;
 }
 
 .play.btn {
@@ -77,64 +90,61 @@
 }
 
 .small-icon-back {
-    display: flex;
     background: #FFFFFF;
     box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
-    flex-direction: row;
-    justify-content: center;
     width: 60px;
     height: 60px;
-    align-items: center;
     padding: 10px;
-    position: relative;
 }
 
 .large-icon-back {
-    display: flex;
     background: #FFFFFF;
     box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
-    flex-direction: row;
-    justify-content: center;
     width: 80px;
     height: 80px;
-    align-items: center;
     padding: 16px;
-    position: relative;
 }
 
-.small-icon-back .google {
+.small-icon-back.google {
+  position: absolute;
   left: 64px;
   top: 10px;
 }
 
-.large-icon-back .atlassian {
+.large-icon-back.atlassian {
+  position: absolute;
   left: 175px;
   top: 10px;
 }
 
-.large-icon-back .asana {
+.large-icon-back.asana {
+  position: absolute;
   left: 380px;
   top: 10px;
 }
 
-.large-icon-back .paypal {
+.large-icon-back.paypal {
+  position: absolute;
   left: 44px;
   top: 172px;
 }
 
-.large-icon-back .weave {
+.large-icon-back.weave {
+  position: absolute;
   left: 262px;
   top: 172px;
 }
 
-.small-icon-back .google-a {
+.small-icon-back.google-a {
+  position: absolute;
   left: 155px;
   top: 290px;
 }
 
-.large-icon-back .calendar {
+.large-icon-back.calendar {
+  position: absolute;
   left: 364px;
   top: 310px;
 }
