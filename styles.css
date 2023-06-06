@@ -1,13 +1,10 @@
+.first.container {
+  padding-bottom: 120px;
+}
+
 .front-logo {
   width: 154.9px;
   height: 46.1px;
-
-}
-
-.container {
-  /* background: linear-gradient(110deg, #d9d9d970 72.61%, #d9d9d970 69%, #d9d9d900 66.85%, #d9d9d900 58%, #E1E7EF 71% ); */
-  background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44) 17.61%, rgba(217, 217, 217, 0) 55.85%);
-  padding-bottom:85px;
 }
 
 .nav-bar {
@@ -147,4 +144,50 @@
   position: absolute;
   left: 364px;
   top: 310px;
+}
+.background {
+  height: 488px;
+  width: 765px;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(312.73deg, #d9d9d970 17.61%, rgba(217, 217, 217, 0) 55.85%);
+}
+
+#Mydiv {
+  transform: skew(-20deg, -3deg);
+  z-index: -1;
+}
+
+.background-two {
+  background-color: #E1E7EF;
+  position: absolute;
+  height: 461px;
+  width: 234px;
+  top: 0px;
+  right: 0px;
+}
+
+#Mydiv-two {
+  transform: skew(-20deg, -3deg);
+  z-index: -5;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 136px;
+}
+
+.benefits {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: black;
+}
+
+.back {
+  display: flex;
+    flex-wrap: wrap;
 }
