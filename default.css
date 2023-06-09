@@ -64,11 +64,11 @@ img {
   cursor: pointer;
   user-select: none;
   background-color: var(--blue);
-  border: 1px solid transparent;
-  padding: 15px 25px;
   font-size: 12px;
   margin: 0px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 15px 25px;
 }
 
 @media (min-width: 768px) {

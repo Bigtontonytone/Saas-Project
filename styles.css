@@ -28,12 +28,6 @@
   margin-left: 10px;
 }
 
-.btn {
-  border-radius: 30px;
-  border: 1px solid transparent;
-  padding: 15px 25px;
-}
-
 .top-section {
   padding-top: 80px;
   display: grid;
@@ -61,6 +55,8 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  width: 145px;
+  height: 45px;
 }
 
 .learn {
@@ -150,7 +146,7 @@
   width: 765px;
   position: absolute;
   top: 0;
-  background: linear-gradient(312.73deg, #d9d9d970 17.61%, rgba(217, 217, 217, 0) 55.85%);
+  background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.439) 17.61%, rgba(217, 217, 217, 0) 55.85%);
 }
 
 #Mydiv {
@@ -176,7 +172,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 136px;
+  margin-top: 136px;
 }
 
 .benefits {
@@ -191,10 +187,73 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 30px;
+  margin-top: 70px;
+  padding-bottom: 90px;
 }
 
 .card-title {
   font-weight: 700;
   font-size: 16px;
   color: black;
+  padding-top: 23px;
+  padding-bottom: 22px;
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.premium {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.premium h3 {
+  font-size: 12px;
+  margin: 0px;
+  padding: 4px 10px;
+  background: #01C9A7;
+  border-radius: 15px;
+  color: white;
+}
+
+.prospectives {
+  font-size: 26px;
+  padding-top: 50px;
+}
+
+.software {
+  display: flex;
+  margin-top: 117px;
+}
+
+.leftpart {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.soft-image {
+  max-width: 500px;
+}
+
+.whyfront.container {
+
+}
+
+.why {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-front {
+
 }
