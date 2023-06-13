@@ -189,6 +189,7 @@
   gap: 30px;
   margin-top: 70px;
   padding-bottom: 90px;
+
 }
 
 .card-title {
@@ -200,12 +201,10 @@
 }
 
 .card {
+  padding: 20px;
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .premium {
@@ -244,7 +243,10 @@
 }
 
 .whyfront.container {
-
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
 }
 
 .why {
@@ -252,8 +254,69 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 
 .why-front {
+  color: black;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.shapes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.circle-lines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #ECF2FF;
+  border-radius: 25px;
+  max-width: 50px;
+}
+
+.dot-circle {
+  width: 6px;
+  height: 6px;
+  background: #0066FF;
+  border-radius: 3px;
+  max-width: 6px;
+}
+
+.line {
+  height: 1px;
+  width: 90.5px;
+  max-width: 90.5px;
+  background-color: #E6E9F2;;
+}
+
+.line.hidden {
+  background-color: transparent;
+}
+
+.words {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-two.container {
+  margin-top: 106px;
+}
+
+#play-circle {
 
 }
