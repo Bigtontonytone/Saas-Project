@@ -20,6 +20,10 @@
   padding-right: 20px;
 }
 
+.nav-link {
+
+}
+
 .nav-link:hover {
   color: var(--blue);
 }
@@ -173,6 +177,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 136px;
+  gap: 10px;
 }
 
 .benefits {
@@ -181,6 +186,7 @@
   line-height: 31px;
   text-align: center;
   color: black;
+  
 }
 
 .cards {
@@ -315,8 +321,100 @@
 
 .banner-two.container {
   margin-top: 106px;
+  margin-bottom: 83px;
 }
 
-#play-circle {
+.play-icon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 45%;
+  top: 172px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.play-btn {
+  color: black;
+}
+
+.hubspot.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.dots {
+  position: absolute;
+  width: 200px;
+  height: 369.28px;
+  left: 28px;
+  top: 111px;
+}
+
+.woman-three {
+  position: absolute;
+  width: 371px;
+  height: 425px;
+  left: 81px;
+  top: 0px;
+}
+
+
+.right-one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 95px;
+}
+
+.right-one img {
+  width: 85px;
+  height: 30px;
+  margin-bottom: 32px
+}
+
+.right-one p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.right-one h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.right-one h3 {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 4px;
+  color: #5F6368;
+}
+
+.trust {
+  font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 188px;
+}
+
+.company-logos.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.companies {
+  width: 108px;
+  height: 40px;
 }
