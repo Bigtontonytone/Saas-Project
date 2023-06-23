@@ -72,6 +72,13 @@ img {
   padding: 15px 25px;
 }
 
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #E6E8F2;
+  width: 186px;
+}
+
 @media (min-width: 768px) {
   .container {max-width: 1024px}
 }
