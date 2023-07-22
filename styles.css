@@ -499,3 +499,66 @@ hr {
   gap: 20.5px;
   padding: 20px;
 }
+
+.hire-us.container {
+  display: flex;
+  background: #20335B;
+  align-items: flex-start;
+}
+
+.l-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.goal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.goal h2 {
+  font-size: 26px;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.goal p {
+  margin: 0;
+  padding-bottom: 34px;
+  font-weight: 500;
+}
+
+.images {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.l-side hr  {
+  width: 180px;
+  margin: 0;
+}
+
+.quotes {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+
+.commercials h2 {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.commercials h3 {
+  color: #677788;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+
