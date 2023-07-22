@@ -207,8 +207,11 @@
         </div>
         <div class="item">
           <img class="icons" src="/saas-project-assets/icons/cancel.svg" alt="cancel">
-          <h2>Cancel anytyme</h2>
-          <p>If its not for you, just cancel, no hidden cots or fees.</p>
+          <span class="premium">
+            <h2>Cancel anytyme</h2>
+            <h3>Sketch</h3>
+          </span>
+          <p>If its not for you, just cancel, no hidden costs or fees.</p>
         </div>
         <div class="item">
           <img class="icons" src="/saas-project-assets/icons/moneyback.svg" alt="money-back">
@@ -218,33 +221,33 @@
       </div>
     </section>
 
-    <section>
-      <div class="l-side container">
-        <div>
+    <section class="hire-us container">
+      <div class="l-side">
+        <div class="l-side-hire">
           <h2>Hire us</h2>
           <p>Whatever your goal -<br> we will get you there</p>
         </div>
         <hr>
-        <div class="quotes">“ I love front! I love the ease of use, I love the fact that I have total creative freedom...” </div>
-        <div>
+        <div class="quotes">“ I love front! I love the ease of use, I love the <br>fact that I have total creative freedom...” </div>
+        <div class="names">
           <h2>Charlotte Moore</h2>
           <h3>Head of Commercials, Slack</h3>
         </div>
-        <div>
-          <img src="/saas-project-assets/people/woman_two.jpg" alt="woman-two">
-          <img src="/saas-project-assets/people/woman_one.jpg" alt="woman-one">
-          <img src="/saas-project-assets/people/man_one.jpg" alt="man-one">
+        <div class="circle-images">
+          <img class="image" src="/saas-project-assets/people/woman_two.jpg" alt="woman-two">
+          <img class="image" src="/saas-project-assets/people/woman_one.jpg" alt="woman-one">
+          <img class="image male" src="/saas-project-assets/people/man_one.jpg" alt="man-one">
         </div>
       </div>
-        <div class="r-side container">
-          <form>
-            <h2>Fill out the form and we'll be in touch as soon as possible</h2>
-            <label for="first-name"></label>
-            <input id="first-name" type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <select name="budget" id="budget">
+        <div class="r-side">
+          <form class="whole-form">
+            <h2 class="htwo">Fill out the form and we'll be in touch as soon as possible</h2>
+            <section class="r-side-form">
+              <input class="first-name" id="first-name" type="text" placeholder="First Name">
+              <input class="last-name" type="text" placeholder="Last Name">
+              <input  class="firstname" type="text" placeholder="First Name">
+              <input  class="lastname" type="text" placeholder="Last Name">
+            <select class="budget" name="budget" id="budget">
               <option value="budget">Budget</option>
               <option value="$1000">$1000</option>
               <option value="$2000">$2000</option>
@@ -257,7 +260,7 @@
               <option value="$9000">$9000</option>
               <option value="$10,000">$10,000</option>
             </select>
-            <select name="country" id="country">
+            <select class="country" name="country" id="country">
               <option value="country">Country</option>
               <option value="Afghanistan">Afghanistan</option>
               <option value="Åland Islands">Åland Islands</option>
@@ -504,11 +507,90 @@
               <option value="Zambia">Zambia</option>
               <option value="Zimbabwe">Zimbabwe</option>
             </select>
-            <textarea placeholder=" Tell us more about your project, needs, and timeline, please..." name="needs" id="needs" cols="53" rows="9"></textarea>
-          </form>
-        </div>
-
+          </section>
+            <textarea class="textarea" placeholder=" Tell us more about your project, needs, and timeline, please..." name="needs" id="needs" cols="53" rows="9"></textarea>
+          <div class="check">
+            <div>
+              <input id="checkbox" type="checkbox">
+            </div>
+            <div class="check-label">
+              <label for="checkbox">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</label>
+            </div>
+          </div>
+          <div class="policy">
+            <a id="veiw" href="#">Veiw privacy policy</a>
+            <a id="veiw" href="#">Veiw privacy policy</a>
+          </div>
+          <div class="started">
+            <button class="get btn">Get started</button>
+          </div>
+        </form>
+      </div>
     </section>
+    <footer class="container">
+      <div>
+      <div>
+        <img src="/saas-project-assets/project_logo/logo.svg" alt="front-logo">
+        <span>
+          <i class="fa-sharp fa-solid fa-location-arrow fa-2xs"></i>
+          <h3>153 Williamson Plaza, Maggieberg</h3>
+        </span>
+        <span>
+          <i class="fa-sharp fa-solid fa-phone fa-2xs"></i>
+          <a href="#">+1 (062) 109-9222</a>
+        </span>
+      </div>
+      </div>
+      <div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li>About</li>
+          <li>
+            <span class="career">
+              <h2>Career</h2>
+              <h3>We're hiring</h3>
+            </span>
+          </li>
+          <li>Blog</li>
+          <li>Customers</li>
+          <li>Hire Us</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Features</h2>
+        <ul>
+          <li>Press</li>
+          <li>Release notes</li>
+          <li>Integrations</li>
+          <li>Pricing</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Documentation</h2>
+        <ul>
+          <li>Support</li>
+          <li>Docs</li>
+          <li>Status</li>
+          <li>API Reference</li>
+          <li>tech Requirements</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Resources</h2>
+        <ul>
+          <span>
+            <i class="fa-solid fa-circle-info fa-2xs"></i>
+            <li>Help</li>
+          </span>
+          <span>
+            <i class="fa-solid fa-circle-user fa-2xs"></i>
+            <li>Your Account</li>
+          </span>
+        </ul>
+      </div>
+      </div>
+      </footer>
 
   </body>
 

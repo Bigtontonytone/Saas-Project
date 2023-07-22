@@ -44,6 +44,12 @@ img {
   border-style: none;
 }
 
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
 .icons {
   width: 50px;
   height: 50px;
@@ -76,8 +82,7 @@ input, select {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #E6E8F2;
-  width: 186px;
-}
+ }
 
 @media (min-width: 768px) {
   .container {max-width: 1024px}
