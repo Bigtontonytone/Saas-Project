@@ -12,12 +12,19 @@
   align-items: center;
   padding-top: 20px;
   justify-content: space-between;
+  position: fixed;
+}
+
+.test {
+  
 }
 
 .nav-list {
   display: flex;
   gap: 20px;
   padding-right: 20px;
+  position: fixed;
+  right: 230px;
 }
 
 .nav-link {
@@ -672,10 +679,23 @@ hr {
   gap: 9px;
 }
 
+.footer-info h3 {
+  font-size: 14px;
+  font-weight: 510;
+  color: var(--text);
+}
+
+.footer-info a:hover {
+  color: #0066FF;
+}
+
 .footer-r-side {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 510;
 }
 
 .list-items {
@@ -690,10 +710,20 @@ hr {
   gap: 20px;
 }
 
+.info-list a:hover {
+  color: var(--blue);
+}
+
 .career {
   display: flex;
   gap: 13px;
   align-items: center;
+}
+
+.career h3 {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 510;
 }
 
 .hiring-button {
@@ -765,4 +795,11 @@ hr {
   align-items: center;
   gap: 21px;
   margin-bottom: 40px;
+  text-align: center;
+}
+
+.footer-bottom > h2, p{
+  font-size: 14px;
+  font-weight: 510;
+  color: var(--text);
 }

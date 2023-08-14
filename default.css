@@ -85,6 +85,12 @@ input, select {
  }
 
 @media (min-width: 768px) {
-  .container {max-width: 1024px}
+  .container {max-width: 1024px;}
+}
+
+@media screen (max-width: 768px) {
+  .right-side {
+    padding-top: 40px;
+  }
 }
 
