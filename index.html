@@ -20,8 +20,10 @@
   <body>
 
     <div class="first container">
-      <div class="test">
-        <nav class="nav-bar">
+      <nav class="nav-bar container">
+        <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+          <span>&#9776</span>
+        </button>
         <img class="front-logo" src="/saas-project-assets/project_logo/logo.svg" alt="frontlogo">
         <ul class="nav-list">
           <li>
@@ -39,13 +41,14 @@
           <li>
             <a class="nav-link" href="#">Hire Us</a>
           </li>
+        <ul class="nav-list">
           <li>
-            <a class="btn buy-now" href="#">Buy Now</a>
+            <a class="btn buy-now nav-link" href="#">Buy Now</a>
           </li>
         </ul>
+      </ul>
       </nav>
-      </div>
-      <div class="top-section">
+      <div class="top-section container">
         <div class="left-side">
           <h2 class="empower">Empowering teams with the freedom</h2>
           <p>Own the unlimited power of the web development</p>
@@ -60,10 +63,6 @@
           <div class="small-icon-back google-a"><img class="small-icon google-a" src="/saas-project-assets/logo_icons/google-A.png" alt="google-A"></div>
           <div class="large-icon-back calendar"><img class="large-icon calendar" src="/saas-project-assets/logo_icons/calendar.png" alt="calendar"></div>
         </div>
-      </div>
-      <div class="back">
-        <div class="background" id="Mydiv"></div>
-        <div class="background-two" id="Mydiv-two"></div>
       </div>
     </div>
     <div class="key container">
@@ -864,6 +863,16 @@
 
     </footer>
 
+    <script>
+      const navButton = document.querySelector('button[aria-expanded]');
+
+      function toggleNav({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+      }
+
+      navButton.addEventListener('click', toggleNav);
+    </script>
   </body>
 
   </html>
