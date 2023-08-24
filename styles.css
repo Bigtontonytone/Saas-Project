@@ -314,6 +314,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 4px;
 }
 
 .banner-two.container {
@@ -445,6 +446,7 @@ margin-top: 188px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 40px;
 }
 
 .number {
@@ -457,7 +459,7 @@ margin-top: 188px;
 hr {
   margin-bottom: 30px;
   margin-top: 30px;
-  width: 320px;
+  width: 100%;
 }
 
 .left-month.card .credit {
