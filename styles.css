@@ -535,6 +535,7 @@ hr {
 .l-side p {
   font-size: 16px;
   font-weight: 500;
+  margin-right: 300px;
 }
 
 .l-side hr {
@@ -574,7 +575,6 @@ hr {
 }
 
 .r-side {
-  display: flex;
   padding: 30px 0px;
 }
 
