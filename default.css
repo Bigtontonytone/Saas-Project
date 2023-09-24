@@ -61,7 +61,6 @@ img {
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 }
 
 .btn {
@@ -87,16 +86,3 @@ input, select {
 @media (min-width: 768px) {
   .container {max-width: 1024px;}
 }
-
-@media screen and (max-width: 768px) {
-
-  .first.container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
-  .right-side {
-    padding-top: 40px;
-  }
-}
-

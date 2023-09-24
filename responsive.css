@@ -1,22 +1,43 @@
 /* Ipads and Tablets */
 
-@media screen and (max-width: 838px){
+@media screen and (max-width: 768px){
+  
   [aria-controls="navbarDropdown"] {
     display: block;
   }
 
-  [aria-expanded="false"] ~ ul {
+  [aria-expanded="false"] ~ div ul {
     display: none;
   }
 
-  [aria-expanded="true"] ~ ul {
+  [aria-expanded="true"] ~ div ul {
     display: flex;
-    flex-direction: row;
-    gap: 40px;
-    align-items: center;
 }
-.btn.buy-now {
-  padding: 12px;
+
+  [aria-expanded="true"] ~ .top-section {
+    margin-top: 500px;
+  }
+
+.first.container {
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 90px;
+  left: 30%;
+  gap: 75px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.right-side {
+  padding-top: 40px;
 }
 
 .top-section {
@@ -143,18 +164,50 @@
 .hire-us.container {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .l-side {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  margin-top: 40px;
+  padding: 0px;
 }
 
 .l-side p {
   margin-right: 0px;
 }
 
+.l-side hr {
+  width: 396px;
+}
+
 .whole-form {
   width: fit-content;
 }
+
+.names {
+  margin-bottom: 30px;
+}
+
+.top-container.container {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  column-gap: 40px;
+}
+
+.footer-r-side {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 50px;
+}
+
+}
+
+/* Mobile Phones */
+
+@media screen and (max-width: 375px){
+
 }

@@ -20,33 +20,35 @@
   <body>
 
     <div class="first container">
-      <nav class="nav-bar container">
+      <nav id="topNav" class="nav-bar container">
+        <img class="front-logo" src="/saas-project-assets/project_logo/logo.svg" alt="frontlogo">
         <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
           <span>&#9776</span>
         </button>
-        <img class="front-logo" src="/saas-project-assets/project_logo/logo.svg" alt="frontlogo">
-        <ul class="nav-list">
-          <li>
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Learn</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Hire Us</a>
-          </li>
-        <ul class="nav-list">
+        <div class="list container">
+          <ul class="nav-list">
+            <li>
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Learn</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Hire Us</a>
+            </li>
+        </ul>
+        <ul>
           <li>
             <a class="btn buy-now nav-link" href="#">Buy Now</a>
           </li>
         </ul>
-      </ul>
+      </div>
       </nav>
       <div class="top-section container">
         <div class="left-side">
@@ -596,9 +598,8 @@
         </div>
       </div>
       <hr class="hr container">
-      <div class="bottom-footer container">
-        <nav class="bottom-nav container">
-          <div class="">
+      <div class="bottom-footer">
+        <nav class="bottom-nav">
             <ul class="bot-nav-left">
               <li><a href="#">Privacy & Policy</a></li>
               <li>></li>
@@ -606,7 +607,6 @@
               <li>></li>
               <li><a href="#">Site-Map</a></li>
             </ul>
-          </div>
           <div class="bot-nav-right">
             <div class="icon-style"><i class="fa-brands fa-facebook-f fa-lg" style="color: #677788;"></i></div>
             <div class="icon-style icon-style-two"><i class="fa-brands fa-google fa-sm" style="color: #ECF2FF;"></i></div>
@@ -868,6 +868,17 @@
     </footer>
 
     <script>
+      const nav = document.getElementById("topNav");
+      window.onscroll = function () {
+        if (window.pageYOffset > 400) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+
+
+
       const navButton = document.querySelector('button[aria-expanded]');
 
       function toggleNav({ target }) {
