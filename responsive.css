@@ -132,6 +132,12 @@
   top: 111px;
 }
 
+.hubspot {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+  position: relative;
+}
+
 .woman-three {
   position: absolute;
   width: 371px;
@@ -143,7 +149,6 @@
 .right-one {
   align-items: center;
   text-align: center;
-  padding-top: 565px;
 }
 
 .trust {
@@ -206,14 +211,36 @@
 
 }
 
+@media screen and (max-width: 710px) {
+  .l-side {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .l-side-hire {
+    align-items: center;
+  }
+
+  .hire-us.container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .quotes {
+    margin-bottom: 0px;
+  } 
+}
+
 /* Mobile Phones */
 
 @media screen and (max-width: 375px){
-  .navbar-toggler {
-    position: absolute;
-    top: 20px;
-    left: 200px;
-  }
+  .container {
+      width: 100%;
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
   .small-icon-back.google {
     position: absolute;
@@ -266,8 +293,17 @@
   text-align: center;
 }
 
+.key.container {
+  margin-top: 265px;
+}
+
 .cards {
   margin-top: 40px;
+  padding-bottom: 0px;
+}
+
+.bottom-left {
+  margin-bottom: 40px;
 }
 
 .circle-lines {
@@ -278,16 +314,17 @@
 }
 
 .shapes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
   margin-top: 50px;
   gap: 17px;
-  padding: 0 34px;
 }
 
 .line {
   display: none;
+}
+
+.right-one {
+  padding: 0px;
 }
 
 .woman-three {
@@ -312,5 +349,102 @@
   position: relative;
 }
 
+.company-logos.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+  gap: 20px;
 }
+
+.pricing h2 {
+  padding-top: 60px;
+}
+
+.l-side {
+  flex-direction: column;
+}
+
+.l-side hr {
+  width: 100%;
+}
+
+.l-side-hire {
+    align-items: center;
+}
+
+.quotes {
+  margin-bottom: 0px;
+}
+.hubspot.container {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.right-month {
+  margin-top: 30px;
+}
+
+.monthly.container {
+  margin-bottom: 60px;
+}
+
+.hire-us.container {
+  text-align: center;
+}
+
+.career {
+  justify-content: center;
+}
+
+.whole-form {
+  display: grid;
+}
+
+.check {
+  display: flex;
+  gap: 16px;
+  text-align: initial;
+}
+
+.policy-veiw {
+  display: none;
+}
+
+.top-container.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-r-side {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+}
+
+.footer-l-side {
+  align-items: center;
+}
+
+.bottom-nav {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bot-nav-right {
+  flex-direction: column;
+  gap: 30px;
+}
+}
+
   
