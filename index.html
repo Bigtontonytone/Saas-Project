@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://kit.fontawesome.com/3f6e3b3cfe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/default.css">
     <link rel="stylesheet" href="/styles.css">
@@ -20,12 +21,17 @@
   <body>
 
     <div class="first container">
-      <nav id="topNav" class="nav-bar container">
+      <nav id="topNav" class="nav-bar">
         <img class="front-logo" src="/saas-project-assets/project_logo/logo.svg" alt="frontlogo">
         <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
           <span>&#9776</span>
         </button>
         <div class="list container">
+          <ul class="nav-list nav-hr">
+            <li class="li">
+              <hr>
+            </li>
+          </ul>
           <ul class="nav-list">
             <li>
               <a class="nav-link" href="#">Home</a>
@@ -43,27 +49,27 @@
               <a class="nav-link" href="#">Hire Us</a>
             </li>
         </ul>
-        <ul>
+        <ul class="margin-button">
           <li>
             <a class="btn buy-now nav-link" href="#">Buy Now</a>
           </li>
         </ul>
       </div>
       </nav>
-      <div class="top-section container">
+      <div class="top-section">
         <div class="left-side">
           <h2 class="empower">Empowering teams with the freedom</h2>
           <p>Own the unlimited power of the web development</p>
           <div class="bottom-left"><button class="play btn"><span class="material-symbols-outlined">play_circle</span>Play Video</button><a class="learn" href="#">Learn more</a></div>
         </div>
-        <div class="right-side">
-          <div class="small-icon-back google"><img class="small-icon google" src="/saas-project-assets/logo_icons/google.png" alt="google"></div>
-          <div class="large-icon-back atlassian"><img class="large-icon atlassian" src="/saas-project-assets/logo_icons/atlassian.png" alt="atlassian"></div>
-          <div class="large-icon-back asana"><img class="large-icon asana" src="/saas-project-assets/logo_icons/asana.png" alt="asana"></div>
-          <div class="large-icon-back paypal"><img class="large-icon paypal" src="/saas-project-assets/logo_icons/paypal.jpg" alt="paypal"></div>
-          <div class="large-icon-back weave"><img class="large-icon weave" src="/saas-project-assets/logo_icons/weave.png" alt="weave"></div>
-          <div class="small-icon-back google-a"><img class="small-icon google-a" src="/saas-project-assets/logo_icons/google-A.png" alt="google-A"></div>
-          <div class="large-icon-back calendar"><img class="large-icon calendar" src="/saas-project-assets/logo_icons/calendar.png" alt="calendar"></div>
+        <div class="right-side w3-container">
+          <div class="small-icon-back w3-center w3-animate-top google"><img class="small-icon w3-center w3-animate-bottom google" src="/saas-project-assets/logo_icons/google.png" alt="google"></div>
+          <div class="large-icon-back w3-center w3-animate-top atlassian"><img class="large-icon w3-center w3-animate-bottom atlassian" src="/saas-project-assets/logo_icons/atlassian.png" alt="atlassian"></div>
+          <div class="large-icon-back w3-center w3-animate-top asana"><img class="large-icon w3-center w3-animate-bottom asana" src="/saas-project-assets/logo_icons/asana.png" alt="asana"></div>
+          <div class="large-icon-back w3-center w3-animate-top paypal"><img class="large-icon w3-center w3-animate-bottom paypal" src="/saas-project-assets/logo_icons/paypal.jpg" alt="paypal"></div>
+          <div class="large-icon-back w3-center w3-animate-top weave"><img class="large-icon w3-center w3-animate-bottom weave" src="/saas-project-assets/logo_icons/weave.png" alt="weave"></div>
+          <div class="small-icon-back w3-center w3-animate-top google-a"><img class="small-icon w3-center w3-animate-bottom google-a" src="/saas-project-assets/logo_icons/google-A.png" alt="google-A"></div>
+          <div class="large-icon-back w3-center w3-animate-top calendar"><img class="large-icon w3-center w3-animate-bottom calendar" src="/saas-project-assets/logo_icons/calendar.png" alt="calendar"></div>
         </div>
       </div>
     </div>
@@ -72,7 +78,7 @@
       <p class="design">Design faster with a growing array of beautiful templates</p>
     </div>
     <section class="cards container">
-      <div class="rep-card card" >
+      <div class="rep-card card " >
       <a href="#">
         <img class="icons" src="/saas-project-assets/icons/responsive.svg" alt="responsive">
         <h2 class="card-title">Responsive</h2>
@@ -200,7 +206,7 @@
           <span class="number">59</span>
           <span>/ mo </span>
         </span>
-        <hr style="width: 290px;">
+        <hr>
         <p>Start your Front business now. 100% guaranteed money back. No questions asked.</p>
           <button class="play btn"><span class="material-symbols-outlined">play_circle</span>Play Video</button>
         <p class="credit">No credit card required.</p>
@@ -220,7 +226,7 @@
           <img class="icons" src="/saas-project-assets/icons/cancel.svg" alt="cancel">
           <span class="premium">
             <h2>Cancel anytyme</h2>
-            <h3>Sketch</h3>
+            <h3>sketch</h3>
           </span>
           <p>If its not for you, just cancel, no hidden costs or fees.</p>
         </div>
@@ -262,7 +268,7 @@
               <input class="last-name" type="text" placeholder="Last Name">
               <input  class="firstname" type="text" placeholder="First Name">
               <input  class="lastname" type="text" placeholder="Last Name">
-            <select class="budget" name="budget" id="budget">
+            <select class="budget text-styles" name="budget" id="budget">
               <option value="budget">Budget</option>
               <option value="$1000">$1000</option>
               <option value="$2000">$2000</option>
@@ -275,7 +281,7 @@
               <option value="$9000">$9000</option>
               <option value="$10,000">$10,000</option>
             </select>
-            <select class="country" name="country" id="country">
+            <select class="country text-styles" name="country" id="country">
               <option value="country">Country</option>
               <option value="Afghanistan">Afghanistan</option>
               <option value="Åland Islands">Åland Islands</option>
@@ -886,8 +892,6 @@
           nav.classList.remove("sticky");
         }
       }
-
-
 
       const navButton = document.querySelector('button[aria-expanded]');
 
